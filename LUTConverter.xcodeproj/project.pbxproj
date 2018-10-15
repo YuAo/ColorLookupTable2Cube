@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067408CC21709DD400A2BDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067408CB21709DD400A2BDEA /* AppDelegate.swift */; };
+		067408CE21709DD400A2BDEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067408CD21709DD400A2BDEA /* MainViewController.swift */; };
+		067408D021709DD600A2BDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067408CF21709DD600A2BDEA /* Assets.xcassets */; };
+		067408D321709DD600A2BDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067408D121709DD600A2BDEA /* Main.storyboard */; };
+		067408DC21709EDD00A2BDEA /* DropDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067408DB21709EDD00A2BDEA /* DropDestinationView.swift */; };
+		26345D663990F1368DDE34B4 /* Pods_LUTConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129C371FF54E569D2B6B6A9 /* Pods_LUTConverter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067408C821709DD400A2BDEA /* LUTConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUTConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067408CB21709DD400A2BDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		067408CD21709DD400A2BDEA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		067408CF21709DD600A2BDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067408D221709DD600A2BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067408D421709DD600A2BDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067408D521709DD600A2BDEA /* LUTConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LUTConverter.entitlements; sourceTree = "<group>"; };
+		067408DB21709EDD00A2BDEA /* DropDestinationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDestinationView.swift; sourceTree = "<group>"; };
+		2028EFA5DD94792D5B796DC7 /* Pods-LUTConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUTConverter.release.xcconfig"; path = "Target Support Files/Pods-LUTConverter/Pods-LUTConverter.release.xcconfig"; sourceTree = "<group>"; };
+		4BD25F5F7DB107D26444BB0F /* Pods-LUTConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUTConverter.debug.xcconfig"; path = "Target Support Files/Pods-LUTConverter/Pods-LUTConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		5129C371FF54E569D2B6B6A9 /* Pods_LUTConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUTConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067408C521709DD400A2BDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26345D663990F1368DDE34B4 /* Pods_LUTConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067408BF21709DD400A2BDEA = {
+			isa = PBXGroup;
+			children = (
+				067408CA21709DD400A2BDEA /* LUTConverter */,
+				067408C921709DD400A2BDEA /* Products */,
+				7C9DA4B77C980C21D1FB3FA8 /* Pods */,
+				D81597F525C381FE35D2275A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		067408C921709DD400A2BDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067408C821709DD400A2BDEA /* LUTConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067408CA21709DD400A2BDEA /* LUTConverter */ = {
+			isa = PBXGroup;
+			children = (
+				067408CB21709DD400A2BDEA /* AppDelegate.swift */,
+				067408CD21709DD400A2BDEA /* MainViewController.swift */,
+				067408DB21709EDD00A2BDEA /* DropDestinationView.swift */,
+				067408CF21709DD600A2BDEA /* Assets.xcassets */,
+				067408D121709DD600A2BDEA /* Main.storyboard */,
+				067408D421709DD600A2BDEA /* Info.plist */,
+				067408D521709DD600A2BDEA /* LUTConverter.entitlements */,
+			);
+			path = LUTConverter;
+			sourceTree = "<group>";
+		};
+		7C9DA4B77C980C21D1FB3FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BD25F5F7DB107D26444BB0F /* Pods-LUTConverter.debug.xcconfig */,
+				2028EFA5DD94792D5B796DC7 /* Pods-LUTConverter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D81597F525C381FE35D2275A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5129C371FF54E569D2B6B6A9 /* Pods_LUTConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067408C721709DD400A2BDEA /* LUTConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067408D821709DD600A2BDEA /* Build configuration list for PBXNativeTarget "LUTConverter" */;
+			buildPhases = (
+				03A49D438F9AED554636ACC7 /* [CP] Check Pods Manifest.lock */,
+				067408C421709DD400A2BDEA /* Sources */,
+				067408C521709DD400A2BDEA /* Frameworks */,
+				067408C621709DD400A2BDEA /* Resources */,
+				3C851DB52CFF0BCE78079C7B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUTConverter;
+			productName = LUTConverter;
+			productReference = 067408C821709DD400A2BDEA /* LUTConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067408C021709DD400A2BDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Meteor;
+				TargetAttributes = {
+					067408C721709DD400A2BDEA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 067408C321709DD400A2BDEA /* Build configuration list for PBXProject "LUTConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067408BF21709DD400A2BDEA;
+			productRefGroup = 067408C921709DD400A2BDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067408C721709DD400A2BDEA /* LUTConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067408C621709DD400A2BDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067408D021709DD600A2BDEA /* Assets.xcassets in Resources */,
+				067408D321709DD600A2BDEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A49D438F9AED554636ACC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LUTConverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C851DB52CFF0BCE78079C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LUTConverter/Pods-LUTConverter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MetalPetal/MetalPetal.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MetalPetal.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LUTConverter/Pods-LUTConverter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067408C421709DD400A2BDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067408CE21709DD400A2BDEA /* MainViewController.swift in Sources */,
+				067408DC21709EDD00A2BDEA /* DropDestinationView.swift in Sources */,
+				067408CC21709DD400A2BDEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067408D121709DD600A2BDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067408D221709DD600A2BDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067408D621709DD600A2BDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		067408D721709DD600A2BDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		067408D921709DD600A2BDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD25F5F7DB107D26444BB0F /* Pods-LUTConverter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LUTConverter/LUTConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DDPY9JD4B3;
+				INFOPLIST_FILE = LUTConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meteor.LUTConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		067408DA21709DD600A2BDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2028EFA5DD94792D5B796DC7 /* Pods-LUTConverter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LUTConverter/LUTConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DDPY9JD4B3;
+				INFOPLIST_FILE = LUTConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meteor.LUTConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067408C321709DD400A2BDEA /* Build configuration list for PBXProject "LUTConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067408D621709DD600A2BDEA /* Debug */,
+				067408D721709DD600A2BDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067408D821709DD600A2BDEA /* Build configuration list for PBXNativeTarget "LUTConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067408D921709DD600A2BDEA /* Debug */,
+				067408DA21709DD600A2BDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067408C021709DD400A2BDEA /* Project object */;
+}

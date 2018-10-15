@@ -1,0 +1,6 @@
+framework module Pods_LUTConverter {
+  umbrella header "Pods-LUTConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
