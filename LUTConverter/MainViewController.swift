@@ -113,7 +113,11 @@ class MainViewController: NSViewController {
                             }
                         }
                     }
-                    try? text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    do {
+                        try text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    } catch {
+                        print(error)
+                    }
                 case .type2DHorizontalStrip:
                     for slice in 0..<lookupTableInfo.dimension {
                         let start = slice * lookupTableInfo.dimension * 4
@@ -127,7 +131,11 @@ class MainViewController: NSViewController {
                             }
                         }
                     }
-                    try? text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    do {
+                        try text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    } catch {
+                        print(error)
+                    }
                 case .type2DVerticalStrip:
                     for slice in 0..<lookupTableInfo.dimension {
                         let start = slice * lookupTableInfo.dimension * bytesPerRow
@@ -141,7 +149,11 @@ class MainViewController: NSViewController {
                             }
                         }
                     }
-                    try? text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    do {
+                        try text.write(to: targetURL, atomically: true, encoding: .utf8)
+                    } catch {
+                        print(error)
+                    }
                 default: break
                 }
             }
